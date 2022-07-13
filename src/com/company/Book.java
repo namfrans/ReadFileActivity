@@ -11,46 +11,6 @@ public class Book {
         SerialNo = serial_no;
     }
 
-    public String getTitle() {
-        return Title;
-    }
-
-    public void setTitle(String title) {
-        Title = title;
-    }
-
-    public String getAuthor() {
-        return Author;
-    }
-
-    public void setAuthor(String author) {
-        Author = author;
-    }
-
-    public String getYear() {
-        return Year;
-    }
-
-    public void setYear(String year) {
-        Year = year;
-    }
-
-    public String getCategory() {
-        return Category;
-    }
-
-    public void setCategory(String category) {
-        Category = category;
-    }
-
-    public String getSerialNo() {
-        return SerialNo;
-    }
-
-    public void setSerial(String serial) {
-        SerialNo = serial;
-    }
-
     @Override
     public String toString() {
         return
